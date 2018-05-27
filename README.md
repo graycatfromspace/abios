@@ -5,8 +5,8 @@
 ```js
 var AbiosAPI = require('abios')
 var api = AbiosAPI({
-  clientID: process.env.ABIOS_CLIENT_ID || options.clientID,
-  clientSecret: process.env.ABIOS_CLIENT_SECRET || options.clientSecret
+  clientID: process.env.ABIOS_CLIENT_ID,
+  clientSecret: process.env.ABIOS_CLIENT_SECRET
 });
 
 api('/series', [
